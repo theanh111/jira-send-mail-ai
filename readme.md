@@ -1,10 +1,10 @@
-# 📬 Jira Send Mail AI
+# Jira Send Mail AI
 
 **Tự động tạo báo cáo Daily Standup từ Jira và gửi email chuyên nghiệp bằng AI**
 
 ---
 
-## 🧠 Giới thiệu
+## Giới thiệu
 
 Dự án này giúp nhân viên:
 
