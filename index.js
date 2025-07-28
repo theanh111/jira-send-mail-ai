@@ -1,3 +1,5 @@
+// Họ và tên: Trần Thế Anh
+// Nội dụng dự án: Tự động soạn thảo 1 bản báo cáo bằng Google AI với các dữ liệu được lấy từ Jira về gửi mail bằng Mailtrap.
 import dotenv from 'dotenv';
 dotenv.config();
 import axios from 'axios';
