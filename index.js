@@ -38,6 +38,7 @@ const transporter = nodemailer.createTransport({
 });
 
 async function sendMail(content) {
+    console.log("Dang gui mail...")
     const mailOptions = {
         from: 'test@gmail.com',
         to: 'employee@gmail.com',
@@ -45,6 +46,7 @@ async function sendMail(content) {
         html: content,
     };
     sendMail = transporter.sendMail(mailOptions, function (error, info) {
+      
         if (error) {
             console.log('Error:', error);
         } else {
